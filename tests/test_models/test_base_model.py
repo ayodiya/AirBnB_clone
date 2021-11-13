@@ -1,7 +1,10 @@
 #!/user/bin/python3
 """ Test file for the base_model class"""
+
+
 import unittest
 from models.base_model import BaseModel
+from models.engine.file_storage import FileStorage
 import models
 import json
 import os
